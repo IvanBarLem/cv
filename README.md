@@ -12,8 +12,8 @@ Inspirated in <a href="https://github.com/midudev/minimalist-portfolio-json">min
 
 <div align="center">
 
-![GitHub issues](https://img.shields.io/github/issues/IvanBarLem/cv)
-![GitHub PRs](https://img.shields.io/github/issues-pr/IvanBarLem/cv)
+![GitHub issues](https://img.shields.io/github/issues/IvanBarLem/cv.ivanbarlem)
+![GitHub PRs](https://img.shields.io/github/issues-pr/IvanBarLem/cv.ivanbarlem)
 
 </div>
 
