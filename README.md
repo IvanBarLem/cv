@@ -43,6 +43,15 @@ pnpm install
 pnpm dev
 ```
 
+## 🚀 Deployment
+
+1. **Deploy with Docker.**
+
+```bash
+docker build -t cv.ivanbarlem .
+docker run -p 3001:3001 cv.ivanbarlem
+```
+
 ## 📝 Configuration
 
 You can modify the CV data in the `cv.json` file.
