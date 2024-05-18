@@ -28,7 +28,7 @@ Inspirated in <a href="https://github.com/midudev/minimalist-portfolio-json">min
 1. **Clone repository.**
 
 ```bash
-git clone git@github.com:IvanBarLem/cv.git
+git clone git@github.com:IvanBarLem/cv.ivanbarlem.git
 ```
 
 2. **Install dependencies.**
