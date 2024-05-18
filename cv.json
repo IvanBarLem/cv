@@ -1,0 +1,353 @@
+{
+  "basics": {
+    "name": "Iván Barrientos Lema",
+    "label": "Full Stack Developer",
+    "image": "/me.png",
+    "email": "ivan.barrientos.lema@gmail.com",
+    "url": "https://ivanbarlem.com",
+    "summary": "I have strong foundation in diverse technologies honning my skills in crafting effective solutions. I am a self-motivated professional with a strong work ethic and a commitment to excellence. I am a fast learner and a team player who thrives in a collaborative environment. I am passionate about web development and I am always looking for new challenges and opportunities to grow. I am a quick learner and I am always looking for new technologies to learn and master.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "A Coruña",
+      "countryCode": "ES",
+      "region": "España"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "IvanBarLem",
+        "url": "https://linkedin.com/in/ivanbarlem"
+      },
+      {
+        "network": "GitHub",
+        "username": "IvanBarLem",
+        "url": "https://github.com/IvanBarLem"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Denodo Technologies",
+      "position": "Junior Product Developer Engineer",
+      "startDate": "2023-05",
+      "endDate": null,
+      "summary": "He has been part of the team that develops and maintains the Denodo Platform. We have dealt with very diverse areas, such as connectors to integrate sources, execution engine, query optimization, cache engine, monitoring and resource management...",
+      "highlights": [
+        "Leader in Data Integration", "Software Development", "Multiple technologies"
+      ]
+    },
+    {
+      "name": "Santiago de Compostela Health Research Institute (IDIS)",
+      "position": "Fullstack Developer",
+      "startDate": "2022-04",
+      "endDate": "2023-05",
+      "summary": "A project has been carried out to develop a pharmaceutical application that integrates different technologies and presents the information generated in an intuitive and practical view in order to facilitate the control and administration of medications.",
+      "highlights": [
+        "Master's Thesis", "Innovation", "Health", "Software Development", "Project management", "Scrum", "React", "Java", "Spring", "Maven", "Git"
+      ]
+    },
+    {
+      "name": "Altia",
+      "position": "Fullstack Developer internship",
+      "startDate": "2020-09",
+      "endDate": "2020-11",
+      "summary": "We have received training in technologies such as React and Spring. Acquired knowledge about the development cycle of a product and have used agile methodologies such as Scrum.",
+      "highlights": [
+        "Internship", "React", "Java", "Spring", "Maven", "Scrum", "Git"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of A Coruña",
+      "url": "https://www.fic.udc.es/es/muei",
+      "area": "Master's Degree in Computer Engineering (MUEI)",
+      "studyType": "Master",
+      "startDate": "2021-09",
+      "endDate": "2023-09",
+      "score": "8.35"
+    },
+    {
+    "institution": "University of A Coruña",
+    "url": "https://estudos.udc.es/es/study/detail/614g01v01",
+    "area": "Computer Engineering. Specialization in Software and Computer Engineering (GEI)",
+    "studyType": "Bachelor",
+    "startDate": "2016-09",
+    "endDate": "2021-09",
+    "score": "7.02"
+  }],
+  "certificates": [{
+    "name": "Design Sprint",
+    "date": "2022-05",
+    "issuer": "Kelea",
+    "url": "https://eu.badgr.com/public/assertions/bpADnJcaTPqdcDOcD5Zp1g",
+    "logo": "https://api.eu.badgr.io/public/assertions/bpADnJcaTPqdcDOcD5Zp1g/image"
+  }],
+  "publications": [
+    {
+      "name": "NEmecum: digital tool to assist in prescribing and dispensing enteral nutrition formulas and infant formulae",
+      "publisher": "Nutrición Hospitalaria",
+      "releaseDate": "2023-10-06",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37705457/",
+      "summary": "Introduction: there is a wide variety of enteral nutrition and infant formulas preparations. When there is a need to find infomation on a product, only the infomation from industy is available. Comparison amomg products becomes then ardous. Objective: to describe the development of NEmecum as the first website that allows a directed and independent search for enteral nutrition products and infant formulas, currently available in Spain, and to evaluate the initial use of NEmecum."
+    },
+    {
+      "name": "NEmecum: digital tool to assist in prescribing and dispensing enteral nutrition formulas and infant formulae",
+      "publisher": "Nutrición Hospitalaria",
+      "releaseDate": "2023-10",
+      "url": "https://scielo.isciii.es/scielo.php?pid=S0212-16112023000600004&script=sci_abstract&tlng=en",
+      "summary": "There is a wide variety of enteral nutrition preparations and infant formulas. When product information is needed, only industry information is available. Comparison between products then becomes difficult."
+    },
+    {
+      "name": "Pk-Pharm: Precision platform for customized drug dosing",
+      "publisher": "University of A Coruña",
+      "releaseDate": "2023-09",
+      "url": "https://ruc.udc.es/dspace/handle/2183/33593",
+      "summary": "The 'Pk-Pharm' project is an innovative initiative created in collaboration between the Machine Vision and Pattern Recognition Group (VARPA) of the University of A Coruña (UDC), the Research and Innovation Unit of the Pharmacy Service (CHUS) and the Clinical Pharmacology Group of IDIS. Its main objective is to develop a state-of-the-art software platform that allows the personalized dosing of drugs, adapted to the specific characteristics of each patient."
+    },
+    {
+      "name": "Clinical decision support tool for the identification of pathological structures associated with age-related macular degeneration (110-111)",
+      "publisher": "Eurocast'22",
+      "releaseDate": "2022-02-25",
+      "url": "https://eurocast2022.fulp.ulpgc.es/sites/default/files/Eurocast_2022_Extended_Abstract_Book.pdf",
+      "summary": "This paper presents a clinical decision support tool for the identification of pathological structures associated with age-related macular degeneration (AMD) using optical coherence tomography (OCT) and optical coherence tomography angiography (OCT-A) images. The system provides a useful tool that facilitates clinical decision making in the diagnosis and treatment of this relevant disease."
+    },
+    {
+    "name": "Dx-OPHTHA: Web platform for patient management and intelligent diagnosis in ophthalmologic images",
+    "publisher": "University of A Coruña",
+    "releaseDate": "2021-09",
+    "url": "https://ruc.udc.es/dspace/handle/2183/29849",
+    "summary": "Dx-OPHTHA has 3 integrated intelligent modules for the automatic analysis of ophthalmological images: (I) Analysis module according to the type of image capture device, (II) Pathological analysis module for OCT images and (III) Pathological analysis module for OCT-A images. On the other hand, Dx-OPHTHA also has different clinical management modules that complete its functionality."
+  }],
+  "awards": [
+    {
+    "title": "R-pharmacokinetic evolution - Best I+i project.",
+    "url": "https://www.idisantiago.es/el-grupo-farmacologia-clinica-del-idis-recibe-el-premio-al-mejor-proyecto-ii/",
+    "date": "2023",
+    "awarder": "Spanish Society of Hospital Pharmacy - 68th congress of the Spanish Society of Hospital Pharmacy",
+    "summary": "Development and implementation of a software tool to make precision dosage recommendations through the application of pharmacokinetic and pharmacogenetic techniques."
+  }],
+  "skills":
+    {
+      "soft": [
+      {
+        "name": "Teamwork"
+      },
+      {
+        "name": "Problem Solving"
+      },
+      {
+        "name": "Communication"
+      },
+      {
+        "name": "Adaptability"
+      },
+      {
+        "name": "Creativity"
+      },
+      {
+        "name": "Critical Thinking"
+      },
+      {
+        "name": "Self-Motivation"
+      },
+      {
+        "name": "Flexibility"
+      },
+      {
+        "name": "Empathy"
+      },
+      {
+        "name": "Patience"
+      },
+      {
+        "name": "Resilience"
+      },
+      {
+        "name": "Proactivity"
+      },
+      {
+        "name": "Curiosity"
+      },
+      {
+        "name": "Responsibility"
+      },
+      {
+        "name": "Organization"
+      },
+      {
+        "name": "Positivity"
+      },
+      {
+        "name": "Dedication"
+      },
+      {
+        "name": "Perseverance"
+      },
+      {
+        "name": "Tolerance"
+      },
+      {
+        "name": "Respect"
+      },
+      {
+        "name": "Integrity"
+      },
+      {
+        "name": "Humility"
+      },
+      {
+        "name": "Honesty"
+      }
+    ],
+    "hard": [
+      {
+        "name": "HTML",
+        "level": "master"
+      },
+      {
+        "name": "CSS",
+        "level": "master"
+      },
+      {
+        "name": "JavaScript",
+        "level": "master"
+      },
+      {
+        "name": "Tailwind",
+        "level": "advanced"
+      },
+      {
+        "name": "Java",
+        "level": "master"
+      },
+      {
+        "name": "Spring",
+        "level": "advanced"
+      },
+      {
+        "name": "Maven",
+        "level": "advanced"
+      },
+      {
+        "name": "React",
+        "level": "master"
+      },
+      {
+        "name": "Docker",
+        "level": "advanced"
+      },
+      {
+        "name": "Git",
+        "level": "advanced"
+      },
+      {
+        "name": "Next.js",
+        "level": "advanced"
+      },
+      {
+        "name": "Databases SQL",
+        "level": "advanced"
+      },
+      {
+        "name": "Databases NoSQL",
+        "level": "beginner"
+      },
+      {
+        "name": "Python",
+        "level": "advanced"
+      },
+      {
+        "name": "Node.js",
+        "level": "intermediate"
+      },
+      {
+        "name": "Scrum",
+        "level": "advanced"
+      },
+      {
+        "name": "Jenkins",
+        "level": "intermediate"
+      },
+      {
+        "name": "AWS",
+        "level": "intermediate"
+      },
+      {
+        "name": "Azure",
+        "level": "intermediate"
+      },
+      {
+        "name": "Astro",
+        "level": "advanced"
+      }
+      ]
+  },
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native"
+    },
+    {
+      "language": "Galician",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Dx-OPHTHA",
+      "status": "offline",
+      "description": "Web platform for patient management and intelligent diagnosis in ophthalmologic images.",
+      "highlights": [
+        "Health",
+        "AI",
+        "Ophthalmology",
+        "Web Development"
+      ],
+      "url": "https://ruc.udc.es/dspace/handle/2183/29849"
+    },
+    {
+      "name": "Pk-Pharm",
+      "status": "offline",
+      "description": "Precision platform for customized drug dosing.",
+      "highlights": [
+        "Health",
+        "Pharmacology",
+        "Web Development",
+        "Awarded project"
+      ],
+      "url": "https://ruc.udc.es/dspace/handle/2183/33593"
+    },
+    {
+      "name": "cv.ivanbarlem",
+      "status": "online",
+      "description": "A minimalist portfolio that works as a CV.",
+      "highlights": [
+        "Astro",
+        "Frontend",
+        "Web Development"
+      ],
+      "url": "https://cv.ivanbarlem.com",
+      "github": "https://github.com/ivanbarlem/cv.ivanbarlem"
+    },
+    {
+      "name": "Caderno",
+      "status": "wip",
+      "description": "Tool for wikis, notes, documentation and information organization in general. Based on Markdown and inspired by Notion and Obsidian.",
+      "highlights": [
+        "Next.js",
+        "Spring",
+        "Maven",
+        "PostgreSQL",
+        "Full Stack Development"
+      ],
+      "url": "https://caderno.ivanbarlem.com",
+      "github": "https://github.com/ivanbarlem/caderno.ivanbarlem"
+    }
+  ]
+}

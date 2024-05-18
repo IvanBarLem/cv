@@ -1,0 +1,141 @@
+---
+import Section from "../Section.astro";
+import { skills } from "@cv";
+
+skills.hard.sort((a, b) => {
+  const levels = ["master", "advanced", "intermediate", "beginner"];
+  return levels.indexOf(a.level) - levels.indexOf(b.level);
+});
+---
+
+<Section title="Hard skills">
+  <ul>
+    {
+      skills.hard.map(({ name, level }) => {
+        switch (level) {
+          case "beginner":
+            return (
+              <li class="beginner">
+                <div class="progress-bar bar-beginner" />
+                {name}
+              </li>
+            );
+          case "intermediate":
+            return (
+              <li class="intermediate">
+                <div class="progress-bar bar-intermediate" />
+                {name}
+              </li>
+            );
+          case "advanced":
+            return (
+              <li class="advanced">
+                <div class="progress-bar bar-advanced" />
+                {name}
+              </li>
+            );
+          case "master":
+            return (
+              <li class="master">
+                <div class="progress-bar bar-master" />
+                {name}
+              </li>
+            );
+          default:
+            return <li>{name}</li>;
+        }
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: inline-flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  li {
+    align-items: center;
+    background: #eee;
+    border-radius: 6px;
+    color: black;
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 500;
+    gap: 4px;
+    padding: 0.2rem 0.6rem;
+    position: relative;
+  }
+
+  .progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+    border-radius: 6px;
+    animation: progress-bar 10s infinite;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+  }
+
+  .bar-beginner {
+    max-width: 20%;
+    background-color: #f4433644;
+  }
+
+  .bar-intermediate {
+    max-width: 50%;
+    background-color: #ff980044;
+  }
+
+  .bar-advanced {
+    max-width: 70%;
+    background-color: #4caf5044;
+  }
+
+  .bar-master {
+    max-width: 100%;
+    background-color: #2196f344;
+  }
+
+  .beginner {
+    background: #f4433622;
+  }
+
+  .intermediate {
+    background: #ff980022;
+  }
+
+  .advanced {
+    background: #4caf5022;
+  }
+
+  .master {
+    background: #2196f322;
+  }
+
+  @keyframes progress-bar {
+    0% {
+      width: 0;
+    }
+    60% {
+      width: 100%;
+    }
+    85% {
+      width: 100%;
+    }
+    100% {
+      width: 0;
+    }
+  }
+
+  @media print {
+    ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+  }
+</style>

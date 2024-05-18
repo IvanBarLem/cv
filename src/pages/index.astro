@@ -1,0 +1,57 @@
+---
+import Layout from "@/layouts/Layout.astro";
+
+import About from "@/components/sections/About.astro";
+import Education from "@/components/sections/Education.astro";
+import Experience from "@/components/sections/Experience.astro";
+import Hero from "@/components/sections/Hero.astro";
+import Projects from "@/components/sections/Projects.astro";
+import SoftSkills from "@/components/sections/SoftSkills.astro";
+import KeyboardManager from "@/components/KeyboardManager.astro";
+
+import { basics } from "@cv";
+import Publications from "@/components/sections/Publications.astro";
+import Certification from "@/components/sections/Certification.astro";
+import Awards from "@/components/sections/Awards.astro";
+import Languages from "@/components/sections/Languages.astro";
+import HardSkills from "@/components/sections/HardSkills.astro";
+import Footer from "@/components/sections/Footer.astro";
+const { name, label } = basics;
+---
+
+<Layout title={`Portafolio de ${name} - ${label}`}>
+  <main>
+    <Hero />
+    <About />
+    <Experience />
+    <Education />
+    <Publications />
+    <Certification />
+    <Awards />
+    <Projects />
+    <HardSkills />
+    <SoftSkills />
+    <Languages />
+    <Footer />
+  </main>
+
+  <KeyboardManager />
+</Layout>
+
+<style is:global>
+  main {
+    padding: 4rem;
+    margin: auto;
+    width: 100%;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  @media (width <= 700px) {
+    main {
+      padding: 2rem;
+    }
+  }
+</style>
