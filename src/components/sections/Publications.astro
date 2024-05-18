@@ -8,8 +8,6 @@ import { publications } from "@cv";
   <ul>
     {
       publications.map(({ publisher, releaseDate, summary, name, url }) => {
-        const startYear = new Date(releaseDate).getFullYear();
-
         return (
           <li>
             <article>
