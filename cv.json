@@ -324,7 +324,7 @@
       "url": "https://ruc.udc.es/dspace/handle/2183/33593"
     },
     {
-      "name": "cv.ivanbarlem",
+      "name": "CV",
       "status": "online",
       "description": "A minimalist portfolio that works as a CV.",
       "highlights": [
@@ -333,7 +333,7 @@
         "Web Development"
       ],
       "url": "https://cv.ivanbarlem.com",
-      "github": "https://github.com/ivanbarlem/cv.ivanbarlem"
+      "github": "https://github.com/ivanbarlem/cv"
     },
     {
       "name": "Caderno",
@@ -347,7 +347,7 @@
         "Full Stack Development"
       ],
       "url": "https://caderno.ivanbarlem.com",
-      "github": "https://github.com/ivanbarlem/caderno.ivanbarlem"
+      "github": "https://github.com/ivanbarlem/caderno"
     }
   ]
 }
