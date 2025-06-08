@@ -29,12 +29,14 @@
   "work": [
     {
       "name": "Denodo Technologies",
-      "position": "Junior Product Developer Engineer",
+      "position": "Product Developer Engineer",
       "startDate": "2023-05",
       "endDate": null,
       "summary": "He has been part of the team that develops and maintains the Denodo Platform. We have dealt with very diverse areas, such as connectors to integrate sources, execution engine, query optimization, cache engine, monitoring and resource management...",
       "highlights": [
-        "Leader in Data Integration", "Software Development", "Multiple technologies"
+        "Leader in Data Integration",
+        "Software Development",
+        "Multiple technologies"
       ]
     },
     {
